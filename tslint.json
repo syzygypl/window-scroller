@@ -1,0 +1,22 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "max-line-length": [
+      true,
+      120
+    ],
+    "class-methods-use-this": [
+      false
+    ],
+    "no-empty-interface": false
+  },
+  "rulesDirectory": []
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "baseUrl": "src",
+    "rootDir": "./src/",
+    "sourceRoot": "./src/",
+    "paths": {
+      "abstracts/*": ["abstracts/*"],
+      "utility/*": ["utility/*"],
+      "custom-validator/*": ["custom-validator/*"],
+      "window-scroller/*": ["window-scroller/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "node_modules/**/*.d.ts",
+    "src/**/*.ts"
+  ]
+}
